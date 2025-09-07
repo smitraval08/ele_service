@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e9f2f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
+}
+
+h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.login-link a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+    background: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo span {
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar .menu a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar .menu a:hover {
+    text-decoration: underline;
+}
+
+.navbar .welcome {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: #007BFF;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
