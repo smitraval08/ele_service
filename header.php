@@ -16,7 +16,7 @@ if (session_status() === PHP_SESSION_NONE) session_start();
         <span class="site-name">E-Service</span>
     </div>
     <div class="nav-center">
-        <a href="dashboard.php">Dashboard</a>
+        <a href="index.php">Dashboard</a>
         <a href="ProblemPage.php">Problem</a>
         <a href="AppointmentPage.php">Appointment</a>
         <a href="Feedback.php">Feedback</a>
@@ -30,3 +30,4 @@ if (session_status() === PHP_SESSION_NONE) session_start();
         <?php endif; ?>
     </div>
 </nav>
+
