@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             } elseif ($row['role'] === 'electrician') {
                 header("Location: electrician_dashboard.php");
             } else {
-                header("Location: dashboard.php");
+                header("Location: index.php");
             }
             exit;
         } else {
@@ -41,3 +41,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     }
 }
+
